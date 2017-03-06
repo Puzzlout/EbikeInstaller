@@ -27,6 +27,6 @@ fi
 ################################################################################
 # Installing the applications
 ################################################################################
-bash backend-install.sh $1 "" all
-#bash frontend-install.sh $1 "" all
+bash installer/backend-install.sh $1 "" all
+bash installer/frontend-install.sh $1 "" all
 
